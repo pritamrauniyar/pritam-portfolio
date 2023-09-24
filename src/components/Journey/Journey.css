@@ -1,0 +1,86 @@
+.journey-section {
+  max-width: 85vw;
+  margin: auto;
+  margin-bottom: 250px;
+  height: 80vh;
+}
+.journey-section hr {
+  border: 0px;
+  height: 1.5px;
+  background-color: rgb(158, 119, 196);
+  margin: 40px 10px;
+}
+.journey-section .title {
+  font-size: 1.8rem;
+}
+.journey-section .horizontal-line {
+  background-color: white;
+  width: 80vw;
+  height: 2px;
+  margin: 120px 0px;
+  display: flex;
+}
+.journey-section .vertical-line {
+  height: 250px;
+  width: 2px;
+  background-color: white;
+  margin: 0px 105px;
+}
+.journey-img {
+  width: 70px;
+  position: relative;
+  top: -30%;
+  left: -35px;
+  height: 65px;
+}
+.start-date {
+  position: relative;
+  right: 85px;
+  bottom: 20%;
+  width: 75px;
+  text-align: right;
+  height: 10px;
+}
+.end-date {
+  position: relative;
+  left: 15px;
+  width: 75px;
+  bottom: 15%;
+  height: 10px;
+}
+.education-type {
+  position: relative;
+  left: -90px;
+  width: 125px;
+  height: 10px;
+  bottom: 0%;
+}
+.journey-title {
+  position: relative;
+  top: 30%;
+  width: 160px;
+  left: 15px;
+  height: 40px;
+}
+.journey-desc {
+  position: relative;
+  top: 48%;
+  width: 200px;
+  right: 80px;
+  font-size: 13px;
+}
+.journey-section .vertical-line-container {
+  display: none;
+}
+@media screen and (max-width: 960px) {
+  .journey-section {
+    height: 230vh;
+  }
+  .journey-section .horizontal-line {
+    display: none;
+  }
+  .journey-section .vertical-line-container {
+    display: block;
+    margin-top: 30px;
+  }
+}

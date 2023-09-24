@@ -1,0 +1,14 @@
+.home-container {
+  background-color: #010021;
+  padding: 20px;
+  color: white;
+}
+
+.home-journey-container {
+  display: none;
+}
+@media screen and (max-width: 480px) {
+  .home-journey-container {
+    display: block;
+  }
+}
