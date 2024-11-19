@@ -20,7 +20,7 @@ const About = () => {
 
       <h3>Hobbies & Interests</h3>
       <p>
-        I'm an avid mobile games player and have achieved high levels in games
+        I&apos;m an avid mobile games player and have achieved high levels in games
         such as PUBG and Clash of Clans. I also have a passion for travelling
         and have visited various places in Nepal and India. My dream is to
         explore the world throughout my life.
