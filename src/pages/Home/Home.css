@@ -1,7 +1,7 @@
 .home-container {
-  background-color: #010021;
+  background-color: #ffffff; /* White for a clean professional look */
   padding: 20px;
-  color: white;
+  color: #2c3e50; /* Steel blue for text */
 }
 
 .home-journey-container {

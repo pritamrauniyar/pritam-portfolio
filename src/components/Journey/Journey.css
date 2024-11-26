@@ -14,7 +14,7 @@
   font-size: 1.8rem;
 }
 .journey-section .horizontal-line {
-  background-color: white;
+  background-color: #d3d3d3;
   width: 80vw;
   height: 2px;
   margin: 120px 0px;
@@ -23,7 +23,7 @@
 .journey-section .vertical-line {
   height: 250px;
   width: 2px;
-  background-color: white;
+  background-color: #d3d3d3;
   margin: 0px 105px;
 }
 .journey-img {

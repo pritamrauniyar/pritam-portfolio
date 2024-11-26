@@ -6,6 +6,7 @@ import Footer from "./components/Footer/Footer";
 import Project from "./pages/Project/Project";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./pages/Home/Home";
+import Certificates from "./pages/Certificates/Certificates";
 import { MyContextProvider } from "./components/MyContext/MyContext";
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
               <Route path="/project" element={<Project />} />
               <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/certificates" element={<Certificates />} />
             </Routes>
           </main>
           <Footer />

@@ -8,7 +8,7 @@ const Footer = () => {
         </div>
         <div>
           <p>
-            www.pritamrauniyar.com.np | Copyright © 2023 | All rights reserved
+            www.pritamrauniyar.com.np | Copyright © 2024 - 2025 | All rights reserved
           </p>
         </div>
         <div className="social-links">

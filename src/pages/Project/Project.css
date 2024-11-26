@@ -2,14 +2,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #010021;
+  background-color: #ffffff; /* White background */
   padding: 20px;
-  color: white;
+  color: #2c3e50; /* Steel blue text */
 }
 
 .project-header {
   font-size: 2.2em;
-  color: white;
+  color: #34495e; /* Slightly darker steel blue */
   margin-bottom: 20px;
 }
 
@@ -20,15 +20,16 @@
 }
 
 .project-card {
-  border: 1px solid #ddd;
+  border: 1px solid #e0e0e0; /* Light gray for card borders */
   border-radius: 10px;
   padding: 20px;
-  box-shadow: 0 2px 5px rgb(255, 255, 255);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
   transition: box-shadow 0.3s ease-in-out;
-  opacity: 0.95;
+  background-color: #f9f9f9; /* Soft gray for the card background */
 }
 .project-card a {
   text-decoration: none;
+  color: #2980b9; /* Blue for links */
 }
 
 .project-card:active {
@@ -41,11 +42,11 @@
 
 .project-card h3 {
   margin-top: 0;
-  color: white;
+  color: #2c3e50; /* Steel blue */
 }
 
 .project-card p {
-  color: white;
+  color: #34495e; /* Slightly darker steel blue */
 }
 
 .project-card img {

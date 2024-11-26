@@ -9,6 +9,7 @@
   flex-direction: column;
   width: 20%;
   font-size: 1.2rem;
+  color: #2c3e50; /* Steel blue text */
 }
 .treemodal-container .modal-right-section {
   flex-direction: column;
@@ -17,29 +18,27 @@
 .treemodal-container .modal-vertical-line {
   width: 2px;
   height: 210px;
-  background: white;
+  background: #d3d3d3; /* Light gray line */
   margin: auto;
 }
 .treemodal-container .modal-img {
   height: 80px;
 }
-.treemodal-container .modal-start-date {
-  margin: 5px;
-}
+.treemodal-container .modal-start-date,
 .treemodal-container .modal-end-date {
   margin: 5px;
+  color: #34495e; /* Slightly darker steel blue */
 }
-.treemodal-container .modal-education-type {
+.treemodal-container .modal-education-type,
+.treemodal-container .modal-journey-title {
   font-size: 1.2rem;
   margin: 10px;
-}
-.treemodal-container .modal-journey-title {
-  font-size: 1.5rem;
-  margin: 10px;
+  color: #2c3e50;
 }
 .treemodal-container .modal-journey-desc {
   font-size: 1rem;
   margin: 10px;
+  color: #34495e;
 }
 @media screen and (max-width: 480px) {
   .treemodal-container .modal-vertical-line {
