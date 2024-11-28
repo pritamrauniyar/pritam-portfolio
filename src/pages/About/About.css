@@ -4,6 +4,9 @@
   padding: 20px;
   text-align: left;
   width: 100%;
+  margin-top: 5rem;
+  overflow-y: auto;
+  max-height: 77vh;
 }
 
 .about-container h1,
@@ -30,6 +33,6 @@
     margin-left: 15px;
   }
   .about-container {
-    margin-top: 100px;
+    max-height: none;
   }
 }

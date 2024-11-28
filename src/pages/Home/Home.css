@@ -2,12 +2,17 @@
   background-color: #ffffff; /* White for a clean professional look */
   padding: 20px;
   color: #2c3e50; /* Steel blue for text */
+  max-height: 88vh;
+  overflow-y: auto;
 }
 
 .home-journey-container {
   display: none;
 }
 @media screen and (max-width: 480px) {
+  .home-container{
+    max-height: none;
+  }
   .home-journey-container {
     display: block;
   }

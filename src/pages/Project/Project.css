@@ -5,6 +5,9 @@
   background-color: #ffffff; /* White background */
   padding: 20px;
   color: #2c3e50; /* Steel blue text */
+  margin-top: 5rem;
+  overflow-y: auto;
+  max-height: 77vh;
 }
 
 .project-header {
@@ -61,6 +64,7 @@
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   }
   .project-container {
-    margin-top: 102px;
+      margin-top: 6rem;
+      max-height: none;
   }
 }

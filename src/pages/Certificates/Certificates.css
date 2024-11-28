@@ -1,14 +1,17 @@
 .certifications-container {
+    margin-top: 5rem;
     padding: 20px;
-    background-color: #ffffff; /* White background for clean look */
-    color: #2c3e50; /* Steel blue text */
+    background-color: #ffffff;
+    color: #2c3e50;
     text-align: center;
+    overflow-y: auto;
+    max-height: 77vh;
   }
   
   .certifications-container h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
-    color: #34495e; /* Slightly darker steel blue */
+    color: #34495e;
   }
   
   .certifications-list {
@@ -64,6 +67,11 @@
   @media screen and (max-width: 480px) {
     .cert-card {
       width: 90%;
+    }
+
+    .certifications-container{
+        margin-top: 6rem;
+        max-height: none;
     }
   }
   
