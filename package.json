@@ -17,7 +17,8 @@
     "redux-thunk": "^2.4.2",
     "typed.js": "^2.0.16",
     "web-vitals": "^2.1.4",
-    "react-ga4": "^2.1.0"
+    "react-ga4": "^2.1.0",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   },
   "scripts": {
     "start": "react-scripts start",
