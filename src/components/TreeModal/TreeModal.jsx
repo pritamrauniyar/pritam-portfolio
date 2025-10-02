@@ -1,6 +1,6 @@
 import { MyContext } from "../MyContext/MyContext";
 import "./TreeModal.css";
-import { useEffect, useState, useContext } from "react";
+import { useContext } from "react";
 //import { connect } from "react-redux";
 //import { fetchJsonData } from "../Redux/Action";
 
