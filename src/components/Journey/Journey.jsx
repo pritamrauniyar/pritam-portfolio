@@ -1,6 +1,6 @@
 import "./Journey.css";
 import "../utility.css";
-import { useState, useEffect, useContext } from "react";
+import {  useContext } from "react";
 import { MyContext } from "../MyContext/MyContext";
 import TreeModal from "../TreeModal/TreeModal";
 const Journey = () => {
